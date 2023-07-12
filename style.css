@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+/* --------------- HEADER ------------------ */
+
+.red {
+    border: 1px solid red;
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.yellow {
+    border: 1px solid yellow;
+}
+
+.violet {
+    border: 1px solid violet;
+}
+
+
+.container.russianladies-logo {
+    display: flex;
+    align-items: center;
+    padding-top: 10px
+}
+
+.logo {
+    margin-right: 100px;
+}
+.logo img {
+    height: 90px;
+    max-width: 100% ;
+}
+
+.call-us-logo {
+    padding-left: 220px;
+}
+
+button.btn.btn-default.reg-btn {
+    background: #439CAD;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-shadow: none;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.blue-button h6 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+
+/* ---------- NAVBAR ------------- */
+
+.nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #042f15 ;
+    margin-top: 8px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    color: white;
+    list-style-type: none;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .nav-bar-container .nav-bar li {
+    float: left;
+    padding: 10px;
+  }
+  
+  .nav-bar-container .nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .nav-bar-container .nav-bar li a:hover {
+    background-color: white;
+  }
+
+ .nav-bar-container .nav-bar li a .img-user { 
+    height: 18px;
+    max-width: 100% ;
+    padding-right: 6px;
+    padding-bottom: 2px;
+ }
+
+ .nav-bar-container .nav-bar li a .img-women-profiles { 
+    height: 17px;
+    max-width: 100%;
+    padding-top: 5px;
+    padding-right: 6px;
+    padding-left: 2px;
+ }
+
+ .nav-bar-container .nav-bar li a .img-wheel-chair { 
+    height: 25px;
+    max-width: 100%;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+ }
+
+ .nav-bar-container .nav-bar li a .img-right-arrow { 
+    height: 16px;
+    max-width: 100%;
+    padding-right: 20px;
+    padding-left: 2px;
+ }
+
+ /* ----------- HOME PAGE ----------- */
+
+.home-page-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://russia-ladies.com/img/site-background.jpg");
+    height: 400px;
+    width: 100%;
+}
+
+
+.home-page-child {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.home-page-parent .item:first-child .h1-shadow {
+    font-family: "Tinos";
+    text-shadow: 6px 6px 8px #ffffff, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
+    font-size: 36px;
+    text-align: center;
+}
+
+.home-page-child .item:first-child{
+    padding-right: 20px;
+}
+
+.home-page-child .item:first-child .blue-button-2 h6 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.home-page-child .item:first-child .blue-button-2 p {
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.home-page-child .item:nth-child(2) .blue-button-3 p  {
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* .home-page-parent .item{
+    flex:1;
+} */
+
+/* Study Psuedo Code */
+/* .home-page-child .item:nth-child(2) {
+    background-color: gold;
+} */
+
+/* -------------- IMAGE SLIDER -------------- */
+
+.slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500px;
+    /* background-color: pink; */
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+
+  .buttons {
+    position: relative;
+    top: -120px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: #c0c0c0;
+  }
+
+  /* --------------- MAIN CONTENT -------------- */
+
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.main-child {
+    padding: 40px;
+    background-color: red;
+}
+
+.highlight-content{
+    background-color: #c0c0c0 ;
+    border-radius: 10px;
+  }
+
+.highlight-content p {
+    font-size: 18px;
+}
+.highlight-content a {
+    margin-top: 10px;
+}
+
+/* .main-text {
+    width: 83%;
+    margin: 2 auto;
+    padding: 23px;
+} */
+
+
+  /* --------------- MAIN CONTENT -------------- */
+
+  #main-div {
+    width: 100%;
+    height: 30vw;
+  }
+
+  #bodyarea-div {
+    width: 75%;
+    min-height: 400px;
+    background-color: gray;
+    float: right;
+    text-align: center;
+    line-height: 400px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  /* ----------- SIDEBAR ------------ */
+  #sidebar-div {
+    width: 20%;
+    min-height: 400px;
+    float: left;
+    padding: 20px;
+    margin-left: 80px;
+    background-color: yellow;
+  }
+
+  #sidebar-div button.newest-women-btn {
+    color: #fff;
+    width: 72%;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#sidebar-div button {
+    background-color: #439cad;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+
+.next-tour-area {
+    padding: 7px;
+    margin-right: 58px;
+    margin-left: 42px;
+    border: 1px dashed #d2d2d2;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: #ffffff;
+    text-align: center;
+    color: red;
+    font-size: 11px;
+}
+
+
+
+.sample {
+    background-color: #263a39;
+    font-weight: '';
+    color: #fff;
+    width: 72%;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+/* .site-container a.list-group-item.active {
+    background: #263a39  !important;
+    text-shadow: none;
+    border-color: #263a39;
+    font-size: 14px;
+    font-weight: bold;
+} */
+
+/* ------------ FOOTER -------------- */
+
+#footer-div h3 {
+    width: 100%;
+    min-height: 200px;
+    background-color: gray;
+    text-align: center;
+    line-height: 200px;
+}
+
+  /* ----------- SIDEBAR SECTION ------------ */
+
+.sidebar-area {
+    padding: 10px;
+}
+
+.sidebar-area .sidebar-btn {
+    text-align: center;
+    padding: 3px;
+}   
+
+.sidebar-area .sidebar-btn a {
+    background: #439cad;
+    color: #fff;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sidebar-area .sidebar-notice p {
+    padding: 8px;
+    border: 1px dashed #d2d2d2;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: #ffffff;
+    text-align: center;
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.sidebar-area .sidebar-contact-number img {
+    width: 100%;
+}
+
+.sidebar-area .sidebar-women-option p {
+    background-color: #263a39 ;
+    color: white;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sidebar-area .sidebar-women-option a {
+    color: black;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    border-color: gray;
+    border-style: solid ;
+    border-width: 0px 1px 1px 1px;
+}
+
+.sidebar-area .sidebar-tools-option {
+    margin-top: 20px;
+}
+
+.sidebar-area .sidebar-tools-option p {
+    background-color: #263a39 ;
+    color: white;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sidebar-area .sidebar-tools-option a {
+    color: black;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    border-color: gray;
+    border-style: solid ;
+    border-width: 0px 1px 1px 1px;
+}
+
+.sidebar-area .sidebar-yt-ads {
+    margin-top: 20px;
+    border-color: gray;
+    border-style: solid ;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.sidebar-area .sidebar-yt-ads img {
+    width: 100%;
+}
+
+.sidebar-area .sidebar-travel-meeting {
+    margin-top: 20px;
+}
+
+.sidebar-area .sidebar-travel-meeting p {
+    background-color: #263a39 ;
+    color: white;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sidebar-area .sidebar-travel-meeting a {
+    color: black;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    border-color: gray;
+    border-style: solid ;
+    border-width: 0px 1px 1px 1px;
+}
+
+/* --------------- CONTENT AREA ------------------- */
+
+.content-area .content-notif-area  {
+    background-color: lightgray;
+}
